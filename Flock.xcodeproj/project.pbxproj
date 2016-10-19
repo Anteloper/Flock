@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C227DA31C83F5A400BA07EE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C227DA21C83F5A400BA07EE /* MediaPlayer.framework */; };
+		4C3D90031C8A9C31004A2CA7 /* StackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D90021C8A9C31004A2CA7 /* StackController.swift */; };
 		4C51DBD61C7BEFAB00D13B96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51DBD51C7BEFAB00D13B96 /* AppDelegate.swift */; };
-		4C51DBD81C7BEFAB00D13B96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51DBD71C7BEFAB00D13B96 /* ViewController.swift */; };
 		4C51DBDB1C7BEFAB00D13B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C51DBD91C7BEFAB00D13B96 /* Main.storyboard */; };
 		4C51DBDD1C7BEFAB00D13B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C51DBDC1C7BEFAB00D13B96 /* Assets.xcassets */; };
 		4C51DBE01C7BEFAB00D13B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C51DBDE1C7BEFAB00D13B96 /* LaunchScreen.storyboard */; };
 		4C51DBEB1C7BEFAB00D13B96 /* FlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51DBEA1C7BEFAB00D13B96 /* FlockTests.swift */; };
 		4C51DBF61C7BEFAB00D13B96 /* FlockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51DBF51C7BEFAB00D13B96 /* FlockUITests.swift */; };
+		4C6BD6D81CA356930040E1C2 /* NewPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BD6D71CA356930040E1C2 /* NewPostController.swift */; };
+		4C6BD6DA1CA3AB2E0040E1C2 /* Driver.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4C6BD6D91CA3AB2E0040E1C2 /* Driver.mov */; };
+		4C8F1A7C1C7D673E00111EF4 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F1A7B1C7D673E00111EF4 /* Properties.swift */; };
+		4CAD7B321C8CA25E00D80CEA /* Preview.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4C227DA51C84A4E600BA07EE /* Preview.mp4 */; };
+		4CAD7B341C8F4E6100D80CEA /* GroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD7B331C8F4E6100D80CEA /* GroupController.swift */; };
+		4CB385401C80AE1F00983C3E /* GridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3853F1C80AE1F00983C3E /* GridController.swift */; };
+		4CB385421C80B36400983C3E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB385411C80B36400983C3E /* PostCell.swift */; };
+		4CB385441C80B7F200983C3E /* Architecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB385431C80B7F200983C3E /* Architecture.swift */; };
+		4CD8050C1CA85E0D00CDDA4B /* TheaterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8050B1CA85E0D00CDDA4B /* TheaterController.swift */; };
+		4CD8F7361CA8906400092884 /* CommentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8F7351CA8906400092884 /* CommentsController.swift */; };
+		4CD93EC01C93925100E297FE /* FlockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD93EBF1C93925100E297FE /* FlockCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +45,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4CAD7B551C90987200D80CEA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4C227DA21C83F5A400BA07EE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4C227DA51C84A4E600BA07EE /* Preview.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Preview.mp4; sourceTree = "<group>"; };
+		4C3D90021C8A9C31004A2CA7 /* StackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackController.swift; sourceTree = "<group>"; };
 		4C51DBD21C7BEFAB00D13B96 /* Flock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C51DBD51C7BEFAB00D13B96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C51DBD71C7BEFAB00D13B96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C51DBDA1C7BEFAB00D13B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C51DBDC1C7BEFAB00D13B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C51DBDF1C7BEFAB00D13B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +74,16 @@
 		4C51DBF11C7BEFAB00D13B96 /* FlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C51DBF51C7BEFAB00D13B96 /* FlockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlockUITests.swift; sourceTree = "<group>"; };
 		4C51DBF71C7BEFAB00D13B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6BD6D71CA356930040E1C2 /* NewPostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostController.swift; sourceTree = "<group>"; };
+		4C6BD6D91CA3AB2E0040E1C2 /* Driver.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Driver.mov; sourceTree = "<group>"; };
+		4C8F1A7B1C7D673E00111EF4 /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		4CAD7B331C8F4E6100D80CEA /* GroupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupController.swift; sourceTree = "<group>"; };
+		4CB3853F1C80AE1F00983C3E /* GridController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridController.swift; sourceTree = "<group>"; };
+		4CB385411C80B36400983C3E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		4CB385431C80B7F200983C3E /* Architecture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Architecture.swift; sourceTree = "<group>"; };
+		4CD8050B1CA85E0D00CDDA4B /* TheaterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheaterController.swift; sourceTree = "<group>"; };
+		4CD8F7351CA8906400092884 /* CommentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsController.swift; sourceTree = "<group>"; };
+		4CD93EBF1C93925100E297FE /* FlockCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlockCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C227DA31C83F5A400BA07EE /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +135,9 @@
 		4C51DBD41C7BEFAB00D13B96 /* Flock */ = {
 			isa = PBXGroup;
 			children = (
-				4C51DBD51C7BEFAB00D13B96 /* AppDelegate.swift */,
-				4C51DBD71C7BEFAB00D13B96 /* ViewController.swift */,
-				4C51DBD91C7BEFAB00D13B96 /* Main.storyboard */,
-				4C51DBDC1C7BEFAB00D13B96 /* Assets.xcassets */,
-				4C51DBDE1C7BEFAB00D13B96 /* LaunchScreen.storyboard */,
-				4C51DBE11C7BEFAB00D13B96 /* Info.plist */,
+				4CD8050E1CA8671D00CDDA4B /* View Controllers */,
+				4CD8050D1CA8670400CDDA4B /* Supporting Files */,
+				4CD8050F1CA8674800CDDA4B /* Extras */,
 			);
 			path = Flock;
 			sourceTree = "<group>";
@@ -125,6 +160,45 @@
 			path = FlockUITests;
 			sourceTree = "<group>";
 		};
+		4CD8050D1CA8670400CDDA4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C51DBD51C7BEFAB00D13B96 /* AppDelegate.swift */,
+				4CB385431C80B7F200983C3E /* Architecture.swift */,
+				4C8F1A7B1C7D673E00111EF4 /* Properties.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CD8050E1CA8671D00CDDA4B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CAD7B331C8F4E6100D80CEA /* GroupController.swift */,
+				4CD93EBF1C93925100E297FE /* FlockCell.swift */,
+				4CB3853F1C80AE1F00983C3E /* GridController.swift */,
+				4CB385411C80B36400983C3E /* PostCell.swift */,
+				4C6BD6D71CA356930040E1C2 /* NewPostController.swift */,
+				4C3D90021C8A9C31004A2CA7 /* StackController.swift */,
+				4CD8050B1CA85E0D00CDDA4B /* TheaterController.swift */,
+				4CD8F7351CA8906400092884 /* CommentsController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4CD8050F1CA8674800CDDA4B /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				4C227DA21C83F5A400BA07EE /* MediaPlayer.framework */,
+				4C51DBD91C7BEFAB00D13B96 /* Main.storyboard */,
+				4C227DA51C84A4E600BA07EE /* Preview.mp4 */,
+				4C6BD6D91CA3AB2E0040E1C2 /* Driver.mov */,
+				4C51DBDC1C7BEFAB00D13B96 /* Assets.xcassets */,
+				4C51DBDE1C7BEFAB00D13B96 /* LaunchScreen.storyboard */,
+				4C51DBE11C7BEFAB00D13B96 /* Info.plist */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +209,7 @@
 				4C51DBCE1C7BEFAB00D13B96 /* Sources */,
 				4C51DBCF1C7BEFAB00D13B96 /* Frameworks */,
 				4C51DBD01C7BEFAB00D13B96 /* Resources */,
+				4CAD7B551C90987200D80CEA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +268,7 @@
 				TargetAttributes = {
 					4C51DBD11C7BEFAB00D13B96 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = JBLV67SH79;
 					};
 					4C51DBE51C7BEFAB00D13B96 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -229,9 +305,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CAD7B321C8CA25E00D80CEA /* Preview.mp4 in Resources */,
 				4C51DBE01C7BEFAB00D13B96 /* LaunchScreen.storyboard in Resources */,
 				4C51DBDD1C7BEFAB00D13B96 /* Assets.xcassets in Resources */,
 				4C51DBDB1C7BEFAB00D13B96 /* Main.storyboard in Resources */,
+				4C6BD6DA1CA3AB2E0040E1C2 /* Driver.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +334,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C51DBD81C7BEFAB00D13B96 /* ViewController.swift in Sources */,
+				4CB385421C80B36400983C3E /* PostCell.swift in Sources */,
+				4CD93EC01C93925100E297FE /* FlockCell.swift in Sources */,
+				4C6BD6D81CA356930040E1C2 /* NewPostController.swift in Sources */,
+				4CB385441C80B7F200983C3E /* Architecture.swift in Sources */,
+				4CAD7B341C8F4E6100D80CEA /* GroupController.swift in Sources */,
+				4CD8050C1CA85E0D00CDDA4B /* TheaterController.swift in Sources */,
+				4C8F1A7C1C7D673E00111EF4 /* Properties.swift in Sources */,
+				4CB385401C80AE1F00983C3E /* GridController.swift in Sources */,
+				4C3D90031C8A9C31004A2CA7 /* StackController.swift in Sources */,
 				4C51DBD61C7BEFAB00D13B96 /* AppDelegate.swift in Sources */,
+				4CD8F7361CA8906400092884 /* CommentsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +484,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Flock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Flock.Flock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +500,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Flock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Flock.Flock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +579,7 @@
 				4C51DBFC1C7BEFAB00D13B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C51DBFD1C7BEFAB00D13B96 /* Build configuration list for PBXNativeTarget "FlockTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +588,7 @@
 				4C51DBFF1C7BEFAB00D13B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C51DC001C7BEFAB00D13B96 /* Build configuration list for PBXNativeTarget "FlockUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +597,7 @@
 				4C51DC021C7BEFAB00D13B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
