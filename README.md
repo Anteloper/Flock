@@ -3,3 +3,5 @@ A side project for a group-based, social media app where all content (Youtube li
 
 
 Inspired by the trend of "Finstagrams" for more genuine, smaller social media
+
+Demo: https://vimeo.com/188051842
